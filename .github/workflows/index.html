@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chenzhao Jia's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #007BFF;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Initially hide all sections */
+        }
+        .container.active {
+            display: block; /* Show active section */
+        }
+        h1, h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        .section-title {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .profile-container {
+            display: flex;
+            align-items: flex-start; /* Align items at the top */
+            gap: 20px;
+        }
+        .profile-img {
+            max-width: 300px;
+            height: auto;
+            flex-shrink: 0;
+        }
+        .profile-text {
+            flex: 1;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .left-align {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#research" onclick="showSection('research')">Research</a>
+        <a href="#education" onclick="showSection('education')">Education</a>
+        <a href="#experience" onclick="showSection('experience')">Experience</a>
+        <a href="#contact" onclick="showSection('contact')">Contact</a>
+    </div>
+
+    <div id="home" class="container active">
+        <h1 class="left-align">Chenzhao Jia  &nbsp &nbsp <font style="font-family:'FangSong'">贾晨钊</font> </h2>
+        <hr>
+        <div class="profile-container">
+            <img src="file:///E:/%E6%A1%8C%E9%9D%A2/c/UNUK/%E8%82%96%E5%83%8F.jpg" alt="Chenzhao Jia" class="profile-img">
+            <div class="profile-text">
+                <p>I am a postgraduate student in Financial Technology at Imperial College, London. In July 2023, I received my BSc Honours in Statistics with First Class from the University of Nottingham. My academic journey has equipped me with a solid foundation in both financial technology and statistical methods.</p>
+                <p>My research mainly focus on Machine Learning,Statistical Modelling and Financial Technology. My research interests include Bayesian Inference, Time Series Analysis, Generalized Linear Models, Natural Language Processing. </p>
+                <p>I am passionate about leveraging technology and data to solve complex financial problems and enhance decision-making processes.</p>
+                <p>Here is my <a href="https://scholar.google.com" target="_blank">Google Scholar</a>, <a href="https://twitter.com" target="_blank">Twitter</a>, and <a href="https://drive.google.com/file/d/1DaVsVIsH4LOJ1wYl-tPiGxisRB2cW_OQ/view?usp=sharing" target="_blank">CV</a>.</p>
+              <p>  Email: jiachenzhao4@gmail.com | Phone: +44 790177418<p>
+            </div>
+        </div>
+    </div>
+
+    <div id="research" class="container">
+
+        <h3 class="section-title">Research Interests</h3>
+        <p>I am a postgraduate student in Financial Technology at Imperial College, London. In July 2023, I received my BSc Honours in Statistics with First Class from the University of Nottingham. My academic journey has equipped me with a solid foundation in both financial technology and statistical methods.</p>
+        <p>My research interests span across several fields including:</p>
+        <li>Bayesian Inference</li>
+        <li>Time Series Analysis</li>
+        <li>Generalized Linear Models</li>
+        <li>Natural Language Processing</li>
+
+        <h3 class="section-title">Papers</h3>
+        <ul>
+            <li><b>Long-Term Housing Demand Microsimulation Modelling for the East Midlands </b><a href="#"><a href="file:///D:/WeChat%20Files/wxid_0pgmdykj2u2o22/FileStorage/File/2024-07/Long_Term_Housing_Demand_Modelling_for_the_East_Midlands__Copy_.pdf" target="_blank">[pdf]</a></li>
+            <br/> Chenzhao Jia, Xinyu Zhang
+            <br/> <p style="color:DodgerBlue;"><i> 2023. </i></p>
+            <li><b>TimeGAN in U.S. Stock Market and Portfolio </b><a href="#">[pdf]</a></li>
+            <br/> Chenzhao Jia
+            <br/> <p style="color:DodgerBlue;"><i> 2024. </i></p>
+            <li><b>Confirming the Buzz about Hornets</b><a href="#"><a href="file:///D:/WeChat%20Files/wxid_0pgmdykj2u2o22/FileStorage/File/2024-07/2117244%20.pdf" target="_blank">[pdf]</a></li>
+            <br/> Chenzhao Jia, Leshan Tan, Qiyu Wang
+            <br/> <p style="color:DodgerBlue;"><i> 2021. </i></p>
+
+        </ul>
+    </div>
+
+    <div id="education" class="container">
+
+        <p>
+            <strong>Imperial College (Postgraduate)</strong><br>
+            Financial Technology, September 2023 - Present
+        </p>
+        <p>
+            <strong>University of Nottingham (Undergraduate)</strong><br>
+            BSc Honours in Statistics, First Class, September 2020 - July 2023
+        </p>
+    </div>
+
+    <div id="experience" class="container">
+
+        <p>
+            <strong>Mathematical Modelling Competition 2021</strong><br>
+            Award: S Prize
+        </p>
+        <p>
+            <strong>Summer Business Roadshow in Shenzhen 2020</strong><br>
+            Presenter
+        </p>
+
+        <h3 class="section-title">Selected Extra-Curricular Activities</h3>
+        <p>
+            <strong>Vis-à-vis Organization</strong><br>
+            Secretary Department and Go~UK! Program, September 2020 - June 2021<br>
+            Responsibilities: Writing emails and meeting minutes
+        </p>
+        <p>
+            <strong>Cushman & Wakefield and Vanke Service</strong><br>
+            Business Support Department Intern, July 2023 - August 2023<br>
+            Responsibilities: Data analysis and information collection
+        </p>
+    </div>
+
+    <div id="contact" class="container">
+
+        <p>Email: <a href="mailto:jiachenzhao4@gmail.com">jiachenzhao4@gmail.com</a> | Phone: +44 790177418</p>
+        <p>Thank you for visiting! If you are interested in my work, feel free to contact me.</p>
+    </div>
+
+    <script>
+        // Function to show the appropriate section based on the id
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.container');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+
+            // Show the selected section
+            var sectionToShow = document.getElementById(sectionId);
+            if (sectionToShow) {
+                sectionToShow.classList.add('active');
+            }
+        }
+
+        // Show the Home section by default
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('home');
+        });
+    </script>
+</body>
+</html>
